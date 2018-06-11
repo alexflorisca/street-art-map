@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Street Art Map Thingy</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <style>
@@ -20,12 +20,12 @@
   </head>
   <body>
     <div id="map"></div>
-    <img id="img1" src="1.jpg" width="800" />
+    <img id="img1" src="1.jpg" width="800" style="display:none" />
     <script>
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 51.5464762, lng: -0.0587583},
+          center: {lat: 51.531666666666666, lng: -0.05666666666666667 },
           zoom: 15
         });
       }
